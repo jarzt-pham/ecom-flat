@@ -1,0 +1,24 @@
+{
+  "name": "ecom-flat",
+  "version": "1.0.0",
+  "description": "Contains 3 modules of user, order and notify, the architecture design follows DDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc --build tsconfig.json",
+    "start": "node dist/src/index.js",
+    "dev": "npm run build && npm run start"
+  },
+  "author": "Jarzt",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.14",
+    "@types/uuid": "^9.0.8",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.13",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.4"
+  }
+}
